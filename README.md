@@ -1,4 +1,4 @@
-# Project's name
+# Inspírate
 
 ## Description
 Inspírate es una web destinada a creativos. Su propósito es proporcionar un punto de partida para iniciar cualquier tipo de proyecto de creación ayudando a evitar el miedo que puede generar enfrentarse a una página en blanco. Para conseguirlo. Inspírate proporciona puntos de partida des de diferentes fuentes y lenguajes: una palabra, una cita celebre y un collage de imágenes creado a partir de fotos. Los tres elementos son elegidos aleatoriamente.
