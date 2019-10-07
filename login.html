@@ -17,7 +17,7 @@
 <body>
     <!--navbar-->
 <nav class="navbar navbar-expand-lg navbar-ligth bg-dark fixed-top">
-    <a href="#" class="navbar-brand"><i class="">icon</i></a>
+    <a href="index.html" class="navbar-brand"><i class="">icon</i></a>
 
     <button type="button" class="navbar-toggler bg-light" data-toggle="collapse" data-target="#nav"><span class="navbar-toggler-icon"></span></button>
 
@@ -35,13 +35,16 @@
 <!--end of navbar-->
 
 <main>
-        <section class="login">
-          <h2>Accede!</h2>
+        <section class="login p-5 align-middle">
+            <div class="row">
+                <h2 class="col text-center m-3">Accede!</h2>
+            </div>
+          
     
-          <div class="form-wrapper">
-            <form action="" class="login-form">
-              <input type="email" id="email" placeholder="email">
-              <input type="password" id="password" placeholder="******">
+          <div class="form-wrapper row text-center justify-content-center">
+            <form action="" class="login-form ">
+              <input class="form-control mb-2" type="email" id="email" placeholder="email">
+              <input class="form-control mb-2" type="password" id="password" placeholder="******">
               <button type="submit" class="button" id="login-button" onclick="login(event)">Login!</button>
             </form>
             <div class="errors-container">
