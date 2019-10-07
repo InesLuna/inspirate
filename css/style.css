@@ -1,0 +1,100 @@
+/* ---- reset ---- */
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /*MI CSS*/
+
+    body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    }
+  h1, h2, h3, h4, h5, h6{
+      font-family: 'Courier New', Courier, monospace;
+  }
+ 
+  /*navbar*/
+
+  .logo-color, .logo-white{
+      height: 75px;
+  }
+
+  nav{
+      background-color: #fff;
+      margin: 0 auto;
+  }
+
+  .my-nav-button{
+    background-color: #0CC490;
+    height:50px;
+    width: 50px;
+  }
+  .my-nav-a{
+    color: #002242;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  /*MAIN*/
+
+  .my-main{
+      padding-top: 100px;
+      margin-bottom: 5%;
+  }
+  h2{
+      font-family: 'Courier New', Courier, monospace;
+      color: #0CC490;
+  }
+  .login-form, .singup-form{
+      display: flex;
+      justify-content: center;
+      flex-flow: column nowrap;
+  }
+  .my-input{
+    border: none;
+    padding: 5px 20px;
+    font-size: 1.1rem;
+  }
+  .input-container{
+      border-bottom: 2px solid #0CC490;
+      margin-bottom: 10px;
+      margin-top: 5px;
+  }
+  /*FOOTER*/
+  footer{
+      background-color: #0CC490;
+      color: #fff;
+      display: flex;
+      justify-content: left;
+      flex-flow: row wrap;
+      font-size: 1.05rem;
+      padding: 50px 25px 25px;
+      margin-top: 50px;
+  }
+  footer>div>ul>li{
+      list-style: none; 
+      margin-bottom: 5px;
+  }
+  .footer-a{
+      color: #fff;
+      text-decoration: none;
+  }
+  .logo-text{
+      font-size: 1.5rem;
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: 700;
+  }
+  .footer-title{
+      font-weight: 700;
+      border-bottom: 1px solid #fff;
+      width: max-content;
+      padding-top: 10px;
+  }
