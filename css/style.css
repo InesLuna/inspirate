@@ -116,9 +116,9 @@ html {
     background-color: #fff;
     border-radius: 0;
     border: none;
-    border-bottom: 3px solid #0CC490;
+    border-bottom: 3px solid #EFF59E;
   }
-  .faq-a>i{
+  .faq-btn>i{
     color: #0CC490
   }
 
@@ -154,8 +154,17 @@ html {
   .slide-h1{
     color: #fff;
   }
-  .my-slide{
-    margin-top: 100px;
+  /*INSPIRACION PAGE*/
+  .api-container{
+    border-top: 3px solid #EFF59E;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .random-word{
+    font-size: 3rem;
+  }
+  .random-quote{ 
+    font-size: 1.5rem;
   }
 
   /*FOOTER*/
@@ -165,6 +174,7 @@ html {
       font-size: 1.05rem;
       padding-top: 50px;
       margin-top: 50px;
+      padding-bottom: 50px;
   }
   footer>div>ul>li{
       list-style: none; 
