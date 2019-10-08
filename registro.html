@@ -36,34 +36,43 @@
   </nav>
 <!--end of navbar-->
 
-<main>
-        <section class="signup">
-    
-          <div class="form-wrapper">
-    
-            <form class="signup-form" action="">
-              <div class="input-container"> <input class="my-input" type="text" id="first-name" placeholder="Nombre"> </div>
-              <div class="input-container"> <input class="my-input" type="text" id="last-name" placeholder="Apellidos"> </div>
-              <div class="input-container"> <input class="my-input" type="text" id="user-name" placeholder="Nombre de usuario"> </div>
-              <div class="input-container"> <input class="my-input" type="text" id="age" placeholder="Edad"> </div>
-              <div class="input-container"> <input class="my-input" type="text" id="city" placeholder="Ciudad"> </div>
-              <div class="input-container"> <input class="my-input" type="text" id="phone" placeholder="Teléfono"> </div>
-              <div class="input-container"> <input class="my-input" type="text" id="email" placeholder="Email"> </div>
-              <div class="input-container"> <input class="my-input" type="text" id="repeat-email" placeholder="Repite el email"> </div>
-              <div class="input-container"> <input class="my-input" type="password" id="password" placeholder="******"> </div>
-              <div class="input-container"> <input class="my-input" type="password" id="repeate-password" placeholder="******"> </div>
-              <button  type="submit" class="button" id="signup-button" onclick="signup.safeData(event)" disabled>Regístrate</button>
-            </form>
-    
-          </div>
-    
-          <div class="errors-container">
-    
-          </div>
-    
-        </section>
-    
-      </main>
+<!--MAIN-->
+  <main class="my-main pt-10 my-5">
+    <section class="signup p-10 align-middle container-fluid">
+
+      <div class="row">
+        <h1 class="col text-center m-3">regístrate!</h1>
+      </div>
+
+      <div class="row justify-content-center mt-5">
+
+        <div class="column text-center justify-content-center mx-5">
+          <div class="input-container"> <input class="my-input mb-2" type="text" id="first-name" placeholder="Nombre"> </div>
+          <div class="input-container"> <input class="my-input mb-2" type="text" id="last-name" placeholder="Apellidos"> </div>
+          <div class="input-container"> <input class="my-input mb-2" type="text" id="user-name" placeholder="Nombre de usuario"> </div>
+          <div class="input-container"> <input class="my-input mb-2" type="text" id="age" placeholder="Edad"> </div>
+          <div class="input-container"> <input class="my-input mb-2" type="text" id="city" placeholder="Ciudad"> </div>
+          <div class="input-container"> <input class="my-input mb-2" type="text" id="phone" placeholder="Teléfono"> </div>
+        </div>
+
+        <div class="column text-center justify-content-center mx-5">
+          <div class="input-container"> <input class="my-input mb-2" type="text" id="email" placeholder="Email"> </div>
+          <div class="input-container"> <input class="my-input mb-2" type="text" id="repeat-email" placeholder="Repite el email"> </div>
+          <div class="input-container"> <input class="my-input mb-2" type="password" id="password" placeholder="******"> </div>
+          <div class="input-container"> <input class="my-input mb-2" type="password" id="repeate-password" placeholder="******"> </div>
+          <button  type="submit" class="my-button my-form-button button my-5" id="submit-button" onclick="signup.safeData(event)" disabled>Regístrate</button>
+          
+          
+        </div>
+        
+      </div>
+
+      <div class="errors-container row text-center justify-content-center mx-5">
+
+      </div>
+    </section>
+
+  </main>
 
 
 <!--footer-->
