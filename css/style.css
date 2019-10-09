@@ -159,6 +159,7 @@ html {
     border-top: 3px solid #EFF59E;
     padding-top: 50px;
     padding-bottom: 50px;
+    overflow: hidden;
   }
   .random-word{
     font-size: 3rem;
