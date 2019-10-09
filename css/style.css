@@ -176,8 +176,8 @@ html {
 
 /* Create four equal columns that sits next to each other */
 .grid-column {
-  flex: 25%;
-  max-width: 25%;
+  flex: 24%;
+  max-width: 24%;
   padding: 0 4px;
 }
 
@@ -190,16 +190,16 @@ html {
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .grid-column {
-    flex: 50%;
-    max-width: 50%;
+    flex: 49%;
+    max-width: 49%;
   }
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .grid-column {
-    flex: 100%;
-    max-width: 100%;
+    flex: 99%;
+    max-width: 99%;
   }
 }
 
