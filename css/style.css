@@ -174,14 +174,33 @@ html {
     color: #fff;
   }
   /*INSPIRACION PAGE*/
-  .api-container{
-    border-top: 3px solid #FCF9B5;
+  .api-container>article{
+    border-top: 5px solid #FCF9B5;
+    border-bottom: 5px solid #FCF9B5;
     padding-top: 50px;
     padding-bottom: 50px;
     overflow: hidden;
+    margin-bottom: 25px;
   }
+  
   .random-word{
     font-size: 3rem;
+  }
+  .word-container{
+    background: url(/imagees/w.png) no-repeat center center /cover;
+    background-size: 150px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .quote-container{
+    background: url(/imagees/q.png) no-repeat center right /cover;
+    background-size: 150px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .random-quote{ 
     font-size: 1.5rem;
@@ -196,8 +215,8 @@ html {
 
 /* Create four equal columns that sits next to each other */
 .grid-column {
-  flex: 24%;
-  max-width: 24%;
+  flex: 23%;
+  max-width: 23%;
   padding: 0 4px;
 }
 
@@ -210,16 +229,16 @@ html {
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .grid-column {
-    flex: 49%;
-    max-width: 49%;
+    flex: 48%;
+    max-width: 48%;
   }
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .grid-column {
-    flex: 99%;
-    max-width: 99%;
+    flex: 98%;
+    max-width: 98%;
   }
 }
 
