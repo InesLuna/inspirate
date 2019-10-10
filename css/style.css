@@ -116,11 +116,22 @@ html {
     background-color: #fff;
     border-radius: 0;
     border: none;
-    border-bottom: 3px solid #EFF59E;
+    border-bottom: 3px solid #FCF9B5;
+    width: 100%;
   }
   .faq-btn>i{
-    color: #0CC490
+    color: #0CC490;
+    font-size: 1.5rem;
   }
+  @media screen and (max-width: 600px){
+    .faq-btn{
+      font-size: 0.8rem;
+    }
+    .faq-title{
+      font-size: 1.3rem;
+    }
+  }
+
 
   /*FORMS*/
 
@@ -145,7 +156,15 @@ html {
     padding: 15px 30px;
     width: 100%;
   }
-
+  /*ERRORS MESSAGES*/
+  .errors-container>p{
+    background-color: #FCF9B5;
+    border-right: 3px solid #FAFF3A;
+    border-bottom: 3px solid #FAFF3A;
+    color: #002242;
+    padding: 15px;
+    margin: 10px;
+  }
   /*SLIDE*/
   .my-slide-header{
     padding: 0 0 30px;
@@ -156,7 +175,7 @@ html {
   }
   /*INSPIRACION PAGE*/
   .api-container{
-    border-top: 3px solid #EFF59E;
+    border-top: 3px solid #FCF9B5;
     padding-top: 50px;
     padding-bottom: 50px;
     overflow: hidden;

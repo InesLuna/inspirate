@@ -11,7 +11,7 @@ const handleMessages = user => {
       message.classList.add('correct-message')
       message.innerHTML = `hola, ${user.userName}`
     } else {
-      message.innerHTML = "el email/nombre de usuario y/o password son erróneos"
+      message.innerHTML = "El email, el nombre de usuario y/o el password son erróneos"
     }
     messageContainer.appendChild(message);
   }
