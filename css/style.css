@@ -198,12 +198,17 @@ html {
     background: url(/imagees/q.png) no-repeat center right /cover;
     background-size: 150px;
     height: 200px;
-    display: flex;
+    /*display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;*/
   }
   .random-quote{ 
     font-size: 1.5rem;
+  }
+  .author{
+    font-size: 1.5rem;
+    text-align: right;
+    font-weight: 700;
   }
 
 /*IMAGES GRID*/

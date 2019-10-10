@@ -1,15 +1,14 @@
 'use strict';
 
-const connectToApi = async () => {
-    const section = document.querySelector('.random-word');
+const connectToApiQuote = async () => {
+    const quote = document.querySelector('.random-quote');
+    const author = document.querySelector('.author')
       
-    const response= await fetch('https://api.adviceslip.com/advice')
-       const wordResult= await response.json();
-       const words=wordResult.slip.advice.split(" ");
-       const number= Math.floor(words.length*Math.random());
-       const word= words[number].replace(/[ ,.]/g, "");
-       const oneWord= word.split(/[ ,.]+/);
+    const response= await fetch(`https://api.quotable.io/random`)
+    const quoteResult = await response.json();
 
-       section.innerText = oneWord;
+  quote.innerText = quoteResult.content;
+  author.innerText = quoteResult.author;
+ 
 }
-connectToApi()
+connectToApiQuote()
