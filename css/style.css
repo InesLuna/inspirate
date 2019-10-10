@@ -198,9 +198,9 @@ html {
     background: url(/imagees/q.png) no-repeat center right /cover;
     background-size: 150px;
     height: 200px;
-    /*display: flex;
-    justify-content: center;
-    align-items: center;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
   }
   .random-quote{ 
     font-size: 1.5rem;
@@ -215,13 +215,14 @@ html {
 .grid-row {
   display: flex;
   flex-wrap: wrap;
+  
   padding: 0 4px;
 }
 
 /* Create four equal columns that sits next to each other */
 .grid-column {
-  flex: 23%;
-  max-width: 23%;
+  flex: 25%;
+  max-width: 25%;
   padding: 0 4px;
 }
 
@@ -234,16 +235,16 @@ html {
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
   .grid-column {
-    flex: 48%;
-    max-width: 48%;
+    flex: 50%;
+    max-width: 50%;
   }
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .grid-column {
-    flex: 98%;
-    max-width: 98%;
+    flex: 100%;
+    max-width: 100%;
   }
 }
 
