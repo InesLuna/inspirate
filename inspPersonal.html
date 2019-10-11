@@ -39,23 +39,85 @@
         </nav>
     <!--end of navbar-->
         <section class="login p-10 align-middle container-fluid">
-            <div class="row">
-                <h1 class="col text-center m-3">login!</h1>
-            </div>
-            
-            <div class="row justify-content-center">
-                <div class="column text-center justify-content-center mx-5">
-                    <form action="" class="login-form">
-                        <div class="input-container"><input class="my-input mb-2 text-center" type="email" id="email-user" placeholder="email or user name"></div>
-                        <div class="input-container"><input class="my-input mb-2 text-center" type="password" id="password" placeholder="******"></div>
-                        <div><button type="submit" class="my-form-button my-button button my-5" id="login-button" onclick="login(event)" disabled>Login!</button></div> 
-                    </form>
+
+            <header class="user-header ">
+                <h2 class="user-name " >Luna</h2>
+                <figure class="user-img "><img  src="./imagees/imago-color.png" alt=""></figure>
+                
+            </header>
+<!--Words-->
+            <article class="user-words-container"> 
+                <h1>Words</h1>
+                <div class="user-words">
+                    <div class="user-word-container"><h2>out</h2></div>
+                    <div class="user-word-container"><h2>random</h2></div>
+                    <div class="user-word-container"><h2>this</h2></div>
+                    <div class="user-word-container"><h2>wink</h2></div>
+                    <div class="user-word-container"><h2>don't</h2></div>
+                    <div class="user-word-container"><h2>free</h2></div>
                 </div>
-            </div>
-            
-            <div class="errors-container row text-center justify-content-center mx-5">
-            </div>
+                
+            </article>
+<!--Quotes-->
+            <article class="user-words-container">
+                <h1>Quotes</h1>
+                <section class="user-quotes">
+                    <div class="user-quote-container ">
+                        <div class="">
+                                <p class="user-random-quote">There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle.</p>
+                        </div>
+                        <div class="">
+                                <p class="author "><strong>Albert Einsten</strong></p> 
+                        </div>
+                    </div>
+                    <div class="user-quote-container">
+                        <div class="">
+                                <p class="user-random-quote">The greatest danger for most of us is not that our aim is too high and we miss it, but that it is too low and we reach it.</p>
+                        </div>
+                        <div class="">
+                                <p class="author"><strong>Michelangelo</strong></p> 
+                        </div>
+                    </div>
+                    <div class="user-quote-container">
+                        <div class=" ">
+                                <p class="user-random-quote">I am like a falling star who has finally found her place next to another in a lovely constellation, where we will sparkle in the heavens forever.</p>
+                        </div>
+                        <div class="">
+                                <p class="author "><strong>Amy Tan</strong></p> 
+                        </div>
+                    </div>
+                    <div class="user-quote-container">
+                        <div class=" ">
+                                <p class="user-random-quote">
+                                        To be able to give away riches is mandatory if you wish to possess them. This is the only way that you will be truly rich.</p>
+                        </div>
+                        <div class="">
+                                <p class="author"><strong> Mahummad Ali</strong></p> 
+                        </div>
+                    </div>
+                </section>  
+            </article>
+<!--Grid images-->
+             <article class="user-images-container">
+                 <h1>Images</h1>
+                 <section class="user-quotes">
+                    <figure class="user-grid-img">
+                        <img src="./imagees/grid1.jpg" alt="image grid">
+                    </figure>
+                    <figure class="user-grid-img">
+                       <img src="./imagees/grid2.jpg" alt="image grid">
+                   </figure>
+                   <figure class="user-grid-img">
+                       <img src="./imagees/grid3.jpg" alt="image grid">
+                   </figure>
+                   <figure class="user-grid-img">
+                       <img src="./imagees/grid4.jpg" alt="image grid">
+                   </figure>
+                </section>
+               
+             </article>
         </section>
+        
     </main>
 
 <!--footer-->
@@ -83,7 +145,7 @@
                 </ul>
             </div>
         </div>     
-    </footer>
+    </footer>   
   
   
   
@@ -94,6 +156,5 @@
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
       <!--Mis JS-->
      
-      <script src="./js/login.js"></script>
   </body>
   </html>
