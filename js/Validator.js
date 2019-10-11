@@ -2,14 +2,14 @@
 //solo añadimos oquitamos errores, que hacemos con esos errores lo haremos en el archivo signup
 class Validator {
     constructor(){
-        this.invalidEmailError = 'Introduce un email valido';
-        this.repeatEmailError = 'Los emails no coinciden'
-        this.duplicateEmailError = 'Este email ya está en uso';
+        this.invalidEmailError = 'Enter a valid email';
+        this.repeatEmailError = 'Emails do not match'
+        this.duplicateEmailError = 'The email is already in use';
         this.passwordError = 'Introduce una contraseña de almenos 8 caracteres';
-        this.repeatPassError = 'Las constraseñas no coinciden';
-        this.firstNameError = 'Introduce tu nombre';
-        this.userNameError = 'Introduce un nombre de usuario';
-        this.duplicatUserName = 'Este nombre de usuario ya está en uso';
+        this.repeatPassError = 'Passwords do not match';
+        this.firstNameError = 'Enter your name';
+        this.userNameError = 'Entear a user name';
+        this.duplicatUserName = 'This user name is already in use, try a different one';
 
         this.errors = {
             invalidEmailError: this.invalidEmailError,
