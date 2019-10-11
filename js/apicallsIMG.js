@@ -10,8 +10,8 @@ const callImgApi = async () =>{
     const cuatroXseis = [...document.querySelectorAll('.cuatro-x-seis')];
     const cuatroXdos = [...document.querySelectorAll('.cuatro-x-dos')];
     const cuatroXtres = [...document.querySelectorAll('.cuatro-x-tres')]
-
     const imgTag = cuatroXcuatro.concat(cuatroXocho, cuatroXdoce, cuatroXseis, cuatroXdos, cuatroXtres)
+
     
     //conseguir una url que va ha permitir hacer una llamada a la api de una página de 100 elementos de la api elegida de manera random entre las 10 páginas que tiene
     const random = Math.floor(Math.random()*40+1);
@@ -63,8 +63,9 @@ const callImgApi = async () =>{
     })
     
     //setear atributos
-    for(let i = 0; i < finalImgArray.length ; i++){
-      imgTag[i].setAttribute('src', finalImgArray[i])
+      for(let i = 0; i < finalImgArray.length ; i++){
+        imgTag[i].setAttribute('src', finalImgArray[i])
+      
     }
 
   }
