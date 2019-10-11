@@ -43,7 +43,6 @@ class Validator {
     validateUnicUserName = newUserName =>{
         //Recoger los datos del local storage
         const usersDB = JSON.parse(localStorage.getItem('users'));
-        console.log(usersDB)
     
         if(!usersDB){ 
             delete this.errors.duplicatUserName;
@@ -90,7 +89,6 @@ class Validator {
     validateUnicEmail = newEmail =>{
         //Recoger los datos del local storage
         const usersDB = JSON.parse(localStorage.getItem('users'));
-        console.log(usersDB)
         //comprovar si está o no el email en el local storage
         //en función de si está o no añadiremos o quitaremos el error del objeto
         if(!usersDB){ //por is no hay ningún usuario registrado

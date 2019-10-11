@@ -24,20 +24,20 @@ const handleMessages = user => {
     //recoger los datos de los inputs
     const emailOrUserInput = document.querySelector('#email-user');
     const passwordInput = document.querySelector('#password');
-    console.log(emailOrUserInput.value, passwordInput.value)
+   
   
     //filtrar base de datos. Find funciona como un filter, pero devuelve el primer elemento que coincide, y no un array de todos los elementos que cumplen la expresión
     const user = usersDB.find(element => {
         if(element.email === emailOrUserInput.value || element.userName === emailOrUserInput.value){
-            console.log('abc')
+         
             if(element.password === passwordInput.value){
-                console.log('dfc')
+          
                 return element
             }
         } 
      });
 
-     console.log(user)
+
      handleMessages(user);
    
   }

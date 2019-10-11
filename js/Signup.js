@@ -57,17 +57,17 @@ class Signup{
         this.cityInput.value = ''; 
         this.phoneInput.value = ''; 
         this.emailInput.value = ''; 
-        this.repeatEmailInput = '';
+        this.repeatEmailInput.value = '';
         this.passwordInput.value = '';
-        this.repeatPasswordInput = '';
+        this.repeatPasswordInput.value = '';
 
 
         validator.checkErrors(true);
-
+        window.location.href = 'login.html'
     }
     
     handleInputsValues = () => {
-        console.log(this.firstNameInput)
+    
 
         this.firstNameInput.addEventListener('input', event => { 
             validator.validateFirstName(event.target.value);
@@ -77,7 +77,7 @@ class Signup{
 
         this.userNameInput.addEventListener('input', event => {
             const errors = validator.validateUserName(event.target.value);
-            console.log(errors)
+
             if(!('userNameError' in errors)){
                 validator.validateUnicUserName(event.target.value)
             }
@@ -133,6 +133,7 @@ class Signup{
 
         if(Object.keys(errors).length === 0){
             this.buttonInput.removeAttribute('disabled')
+
         }else{
             this.buttonInput.setAttribute('disabled','')
         }
